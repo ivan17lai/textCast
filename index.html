@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket 測試</title>
+</head>
+<body>
+    <h2>WebSocket 測試</h2>
+    <p id="output"></p>
+    <script>
+        let ws = new WebSocket("ws://192.168.56.1:8080");
+        ws.onmessage = function(event) {
+            document.getElementById("output").innerText = "收到: " + event.data;
+        };
+        ws.onopen = function() {
+            console.log("已連接 WebSocket 伺服器");
+        };
+        ws.onclose = function() {
+            console.log("WebSocket 連線關閉");
+        };
+    </script>
+</body>
+</html>

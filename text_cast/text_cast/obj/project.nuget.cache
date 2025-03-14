@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zGgS9EiBMYolHLtVHefhqByYdLkU84aGgGl85gp1HJCwv5W+aEt14JJkhiUP6CGVK5xBKYa5tw5LTCQOmD/U1g==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\project\\textCast\\text_cast\\text_cast\\text_cast.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ivan1\\.nuget\\packages\\fleck\\1.2.0\\fleck.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
